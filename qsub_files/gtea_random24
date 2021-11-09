@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -P volta_pilot
+#PBS -j oe
+#PBS -N gtea_gen24
+#PBS -q volta_gpu
+#PBS -l select=1:ncpus=10:mem=40gb:ngpus=1:mpiprocs=1
+#PBS -l walltime=24:00:00
+
+cd $PBS_O_WORKDIR;
+np=$(cat ${PBS_NODEFILE} | wc -l);
+image="/app1/common/singularity-img/3.0.0/pytorch_1.4_cuda10.0-cudnn7-devel-ubuntu18.04-py36.simg"
+singularity exec $image bash << EOF > logs/stdout.$PBS_JOBID 2> logs/stderr.$PBS_JOBID
+
+export PYTHONPATH=$PYTHONPATH:/home/svu/e0367435/em-less-frame-supervision/:/home/svu/e0367435/.local/lib/python3.6/site-packages/
+export WANDB_MODE=offline
+cd ../
+python runcodes/run_em_generalized.py --split 1 --select_f data/gtea_random24frame_selection_s3.pkl --init_epoch 50 --sample_rate 1 --use_mse --cudad 0 --base_dir /hpctmp/e0367435/video_segmentation/gtea/ --lr 0.0005 --epochs 250 --batch_size 8 --train_batch_size 20 --postprocess
+python runcodes/run_em_generalized.py --split 2 --select_f data/gtea_random24frame_selection_s3.pkl --init_epoch 50 --sample_rate 1 --use_mse --cudad 0 --base_dir /hpctmp/e0367435/video_segmentation/gtea/ --lr 0.0005 --epochs 250 --batch_size 8 --train_batch_size 20 --postprocess
+python runcodes/run_em_generalized.py --split 3 --select_f data/gtea_random24frame_selection_s3.pkl --init_epoch 50 --sample_rate 1 --use_mse --cudad 0 --base_dir /hpctmp/e0367435/video_segmentation/gtea/ --lr 0.0005 --epochs 250 --batch_size 8 --train_batch_size 20 --postprocess
+python runcodes/run_em_generalized.py --split 4 --select_f data/gtea_random24frame_selection_s3.pkl --init_epoch 50 --sample_rate 1 --use_mse --cudad 0 --base_dir /hpctmp/e0367435/video_segmentation/gtea/ --lr 0.0005 --epochs 250 --batch_size 8 --train_batch_size 20 --postprocess
+EOF

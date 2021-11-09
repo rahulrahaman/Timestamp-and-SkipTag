@@ -1,0 +1,14 @@
+      ======================================================================================
+      Resource Usage on 2021-10-19 19:39:01.562230:
+      JobId: 4475282.venus01  				 Project: volta_pilot 
+      Submission Host: atlas8-c01.hpc.local 
+      Exit Status: 0
+      NCPUs Requested: 10 				 NCPUs Used: 10
+      Memory Requested: 40gb 				 Memory Used: 3939716kb 
+      Vmem Used: 3939732kb
+      CPU Time Used: 01:34:10 
+      Walltime requested: 24:00:00 			 Walltime Used: 01:14:25
+      Submit Time:  Tue Oct 19 18:24:35 2021 		 Start Time: Tue Oct 19 18:24:31 2021 
+      End Time: Tue Oct 19 19:39:01 2021 
+      Execution Nodes Used: (volta03:ncpus=10:mem=41943040kb:ngpus=1)
+      ======================================================================================

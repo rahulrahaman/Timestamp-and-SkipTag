@@ -1,0 +1,15 @@
+=>> PBS: job killed: walltime 86413 exceeded limit 86400
+      ======================================================================================
+      Resource Usage on 2021-10-20 19:51:58.399742:
+      JobId: 4475285.venus01  				 Project: volta_pilot 
+      Submission Host: atlas8-c01.hpc.local 
+      Exit Status: 271
+      NCPUs Requested: 20 				 NCPUs Used: 20
+      Memory Requested: 40gb 				 Memory Used: 41943040kb 
+      Vmem Used: 41943040kb
+      CPU Time Used: 49:16:49 
+      Walltime requested: 24:00:00 			 Walltime Used: 24:00:16
+      Submit Time:  Tue Oct 19 18:24:56 2021 		 Start Time: Tue Oct 19 19:51:37 2021 
+      End Time: Wed Oct 20 19:51:58 2021 
+      Execution Nodes Used: (volta09:ncpus=20:mem=41943040kb:ngpus=1)
+      ======================================================================================

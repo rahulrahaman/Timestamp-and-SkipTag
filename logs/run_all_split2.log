@@ -1,0 +1,3141 @@
+Base directory: /mnt/ssd/all_users/dipika/ms_tcn/data/gtea/
+Dataset name: gtea
+printing in output dir =  /mnt/ssd/all_users/dipika/ms_tcn/data/gtea/results/em_algo/sf_gtea_single_frame_with_mse_with_conf/split2/
+Length of files picked up for semi-supervised training is  21
+Length of files picked up for semi-supervised validation is  7
+Namespace(back_gd_list=['background'], base_dir='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea/', batch_size=8, boundary_f='data/gtea_boundary_annotations.pkl', cudad='3', custom_name='', dataset_name='gtea', epochs=250, expectation_cal_gap=5, feature_size=2048, features_file_name='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea//features/', ground_truth_files_dir='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea//groundTruth/', init_epoch=50, label_id_csv='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea/mapping.csv', lr=0.0005, mean_var_f='data/gtea_meanvar_actions.pkl', notrain=False, num_class=11, output_dir='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea/results/em_algo/sf_gtea_single_frame_with_mse_with_conf/split2/', poisson_f='data/gtea_possion_class_dict.pkl', postprocess=True, resume_model=None, sample_rate=1, select_f='data/gtea_single_frame.pkl', split=2, start_epoch=0, temp=1, test_split_file='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea//splits/test.split2.bundle', train_batch_size=20, train_split_file='/mnt/ssd/all_users/dipika/ms_tcn/data/gtea//splits/train.split2.bundle', use_conf=True, use_mse=True)
+Number of videos logged in train fold is 21
+Number of videos not found in train fold is 0
+Number of videos logged in test fold is 7
+Number of videos not found in test fold is 0
+Datasets and loaders are created
+All files have been loaded
+Starting Training
+Epoch 1 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 2 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 3 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 4 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 5 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 6 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 7 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 8 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 9 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 10 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 11 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 12 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 13 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 14 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 15 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 16 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 17 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 18 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 22.8501
+Edit score: 0.0000
+F1@0.10: 0.0000
+F1@0.25: 0.0000
+F1@0.50: 0.0000
+Validation:: Probability Accuracy 22.85012285012285
+Other scores:: Edit 0.0, F1@[10:25:50] [0. 0. 0.]
+Starting Training
+Epoch 19 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 24.1032
+Edit score: 5.5274
+F1@0.10: 8.5106
+F1@0.25: 5.6738
+F1@0.50: 1.4184
+Validation:: Probability Accuracy 24.103194103194102
+Other scores:: Edit 5.527410964385758, F1@[10:25:50] [8.5106383  5.67375887 1.41843972]
+Starting Training
+Epoch 20 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 24.6806
+Edit score: 6.0801
+F1@0.10: 9.8592
+F1@0.25: 9.8592
+F1@0.50: 4.2254
+Validation:: Probability Accuracy 24.68058968058968
+Other scores:: Edit 6.08013205282113, F1@[10:25:50] [9.85915493 9.85915493 4.22535211]
+Starting Training
+Epoch 21 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 28.7469
+Edit score: 10.9598
+F1@0.10: 17.5676
+F1@0.25: 16.2162
+F1@0.50: 13.5135
+Validation:: Probability Accuracy 28.74692874692875
+Other scores:: Edit 10.959783913565428, F1@[10:25:50] [17.56756757 16.21621622 13.51351351]
+Starting Training
+Epoch 22 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 29.3735
+Edit score: 9.7980
+F1@0.10: 16.3265
+F1@0.25: 16.3265
+F1@0.50: 10.8844
+Validation:: Probability Accuracy 29.373464373464373
+Other scores:: Edit 9.798019207683074, F1@[10:25:50] [16.32653061 16.32653061 10.88435374]
+Starting Training
+Epoch 23 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 29.6560
+Edit score: 16.2168
+F1@0.10: 21.9355
+F1@0.25: 18.0645
+F1@0.50: 12.9032
+Validation:: Probability Accuracy 29.656019656019655
+Other scores:: Edit 16.216786714685878, F1@[10:25:50] [21.93548387 18.06451613 12.90322581]
+Starting Training
+Epoch 24 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 32.1130
+Edit score: 20.5792
+F1@0.10: 29.6296
+F1@0.25: 29.6296
+F1@0.50: 16.0494
+Validation:: Probability Accuracy 32.11302211302211
+Other scores:: Edit 20.57923169267707, F1@[10:25:50] [29.62962963 29.62962963 16.04938272]
+Starting Training
+Epoch 25 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 32.5676
+Edit score: 25.0860
+F1@0.10: 30.6818
+F1@0.25: 29.5455
+F1@0.50: 20.4545
+Validation:: Probability Accuracy 32.567567567567565
+Other scores:: Edit 25.086034413765503, F1@[10:25:50] [30.68181818 29.54545455 20.45454545]
+Starting Training
+Epoch 26 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 32.9853
+Edit score: 34.5822
+F1@0.10: 24.0310
+F1@0.25: 22.4806
+F1@0.50: 13.1783
+Validation:: Probability Accuracy 32.98525798525799
+Other scores:: Edit 34.582162144273944, F1@[10:25:50] [24.03100775 22.48062016 13.17829457]
+Starting Training
+Epoch 27 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 33.1941
+Edit score: 33.6374
+F1@0.10: 24.0385
+F1@0.25: 18.2692
+F1@0.50: 12.0192
+Validation:: Probability Accuracy 33.19410319410319
+Other scores:: Edit 33.637377731015185, F1@[10:25:50] [24.03846154 18.26923077 12.01923077]
+Starting Training
+Epoch 28 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 37.7150
+Edit score: 34.6024
+F1@0.10: 27.1805
+F1@0.25: 20.2840
+F1@0.50: 12.9817
+Validation:: Probability Accuracy 37.714987714987714
+Other scores:: Edit 34.6023537045808, F1@[10:25:50] [27.18052738 20.28397566 12.98174442]
+Starting Training
+Epoch 29 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 41.3391
+Edit score: 32.8758
+F1@0.10: 30.6273
+F1@0.25: 23.9852
+F1@0.50: 15.1292
+Validation:: Probability Accuracy 41.33906633906634
+Other scores:: Edit 32.87578069442026, F1@[10:25:50] [30.62730627 23.98523985 15.12915129]
+Starting Training
+Epoch 30 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 45.3317
+Edit score: 30.8735
+F1@0.10: 32.3741
+F1@0.25: 27.6978
+F1@0.50: 16.5468
+Validation:: Probability Accuracy 45.33169533169533
+Other scores:: Edit 30.873476937141533, F1@[10:25:50] [32.37410072 27.69784173 16.54676259]
+Starting Training
+Epoch 31 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 48.5135
+Edit score: 33.0646
+F1@0.10: 35.0943
+F1@0.25: 30.9434
+F1@0.50: 16.6038
+Validation:: Probability Accuracy 48.513513513513516
+Other scores:: Edit 33.06461404447704, F1@[10:25:50] [35.09433962 30.94339623 16.60377358]
+Starting Training
+Epoch 32 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 49.9509
+Edit score: 33.5374
+F1@0.10: 39.0041
+F1@0.25: 34.8548
+F1@0.50: 21.9917
+Validation:: Probability Accuracy 49.95085995085995
+Other scores:: Edit 33.5373842519464, F1@[10:25:50] [39.00414938 34.85477178 21.99170124]
+Starting Training
+Epoch 33 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 51.7076
+Edit score: 36.1236
+F1@0.10: 42.3077
+F1@0.25: 38.0342
+F1@0.50: 26.4957
+Validation:: Probability Accuracy 51.70761670761671
+Other scores:: Edit 36.1236117223601, F1@[10:25:50] [42.30769231 38.03418803 26.4957265 ]
+Starting Training
+Epoch 34 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 49.7912
+Edit score: 42.4156
+F1@0.10: 45.1467
+F1@0.25: 40.6321
+F1@0.50: 27.0880
+Validation:: Probability Accuracy 49.79115479115479
+Other scores:: Edit 42.41556596866417, F1@[10:25:50] [45.14672686 40.63205418 27.08803612]
+Starting Training
+Epoch 35 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 52.5430
+Edit score: 41.9976
+F1@0.10: 47.6190
+F1@0.25: 40.0000
+F1@0.50: 29.5238
+Validation:: Probability Accuracy 52.54299754299754
+Other scores:: Edit 41.99758954965385, F1@[10:25:50] [47.61904762 40.         29.52380952]
+Starting Training
+Epoch 36 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 53.6241
+Edit score: 36.6594
+F1@0.10: 45.6897
+F1@0.25: 39.2241
+F1@0.50: 28.0172
+Validation:: Probability Accuracy 53.62407862407862
+Other scores:: Edit 36.6594284403237, F1@[10:25:50] [45.68965517 39.22413793 28.01724138]
+Starting Training
+Epoch 37 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 50.4054
+Edit score: 42.1068
+F1@0.10: 46.7416
+F1@0.25: 41.7978
+F1@0.50: 25.1685
+Validation:: Probability Accuracy 50.4054054054054
+Other scores:: Edit 42.10683656752359, F1@[10:25:50] [46.74157303 41.79775281 25.16853933]
+Starting Training
+Epoch 38 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 51.8796
+Edit score: 45.6386
+F1@0.10: 47.1744
+F1@0.25: 42.2604
+F1@0.50: 28.9926
+Validation:: Probability Accuracy 51.87960687960688
+Other scores:: Edit 45.63857398338, F1@[10:25:50] [47.17444717 42.26044226 28.99262899]
+Starting Training
+Epoch 39 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 53.6241
+Edit score: 44.0060
+F1@0.10: 49.1726
+F1@0.25: 44.9173
+F1@0.50: 30.7329
+Validation:: Probability Accuracy 53.62407862407862
+Other scores:: Edit 44.00597596366292, F1@[10:25:50] [49.17257683 44.91725768 30.73286052]
+Starting Training
+Epoch 40 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 53.7469
+Edit score: 47.1288
+F1@0.10: 50.3667
+F1@0.25: 46.9438
+F1@0.50: 35.2078
+Validation:: Probability Accuracy 53.746928746928745
+Other scores:: Edit 47.12879213361373, F1@[10:25:50] [50.36674817 46.94376528 35.20782396]
+Starting Training
+Epoch 41 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 52.8256
+Edit score: 47.6254
+F1@0.10: 51.2690
+F1@0.25: 47.2081
+F1@0.50: 30.9645
+Validation:: Probability Accuracy 52.825552825552826
+Other scores:: Edit 47.625376606058786, F1@[10:25:50] [51.26903553 47.20812183 30.96446701]
+Starting Training
+Epoch 42 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 52.9484
+Edit score: 42.6208
+F1@0.10: 48.0370
+F1@0.25: 44.3418
+F1@0.50: 29.5612
+Validation:: Probability Accuracy 52.94840294840295
+Other scores:: Edit 42.620843557061065, F1@[10:25:50] [48.0369515  44.34180139 29.56120092]
+Starting Training
+Epoch 43 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 53.2801
+Edit score: 48.0179
+F1@0.10: 52.3810
+F1@0.25: 46.1905
+F1@0.50: 32.3810
+Validation:: Probability Accuracy 53.28009828009828
+Other scores:: Edit 48.01787144144405, F1@[10:25:50] [52.38095238 46.19047619 32.38095238]
+Starting Training
+Epoch 44 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 51.5233
+Edit score: 46.5501
+F1@0.10: 48.9104
+F1@0.25: 45.0363
+F1@0.50: 28.5714
+Validation:: Probability Accuracy 51.52334152334152
+Other scores:: Edit 46.55014510449293, F1@[10:25:50] [48.91041162 45.03631961 28.57142857]
+Starting Training
+Epoch 45 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 55.7371
+Edit score: 44.5002
+F1@0.10: 53.3333
+F1@0.25: 47.6190
+F1@0.50: 31.4286
+Validation:: Probability Accuracy 55.73710073710074
+Other scores:: Edit 44.50017843340993, F1@[10:25:50] [53.33333333 47.61904762 31.42857143]
+Starting Training
+Epoch 46 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 55.4423
+Edit score: 46.1086
+F1@0.10: 50.9259
+F1@0.25: 46.2963
+F1@0.50: 31.0185
+Validation:: Probability Accuracy 55.44226044226044
+Other scores:: Edit 46.108631631129015, F1@[10:25:50] [50.92592593 46.2962963  31.01851852]
+Starting Training
+Epoch 47 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 54.9386
+Edit score: 48.1811
+F1@0.10: 53.7897
+F1@0.25: 49.3888
+F1@0.50: 35.6968
+Validation:: Probability Accuracy 54.93857493857494
+Other scores:: Edit 48.181101005034975, F1@[10:25:50] [53.78973105 49.38875306 35.69682152]
+Starting Training
+Epoch 48 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 56.1548
+Edit score: 47.2277
+F1@0.10: 54.3779
+F1@0.25: 50.6912
+F1@0.50: 35.4839
+Validation:: Probability Accuracy 56.154791154791155
+Other scores:: Edit 47.22768021299246, F1@[10:25:50] [54.37788018 50.69124424 35.48387097]
+Starting Training
+Epoch 49 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 56.2899
+Edit score: 49.6236
+F1@0.10: 56.1743
+F1@0.25: 51.3317
+F1@0.50: 36.3196
+Validation:: Probability Accuracy 56.28992628992629
+Other scores:: Edit 49.62357416442757, F1@[10:25:50] [56.17433414 51.33171913 36.31961259]
+Starting Training
+Epoch 50 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 54.1032
+Edit score: 48.3871
+F1@0.10: 54.4578
+F1@0.25: 46.2651
+F1@0.50: 32.7711
+Validation:: Probability Accuracy 54.103194103194106
+Other scores:: Edit 48.38705155936888, F1@[10:25:50] [54.45783133 46.26506024 32.77108434]
+Starting Training
+Epoch 51 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 55.1843
+Edit score: 47.6933
+F1@0.10: 55.0868
+F1@0.25: 49.1315
+F1@0.50: 34.7395
+Validation:: Probability Accuracy 55.18427518427519
+Other scores:: Edit 47.69333182338029, F1@[10:25:50] [55.08684864 49.13151365 34.73945409]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  75.12%, boundary mse  23.52
+Starting Training
+Epoch 52 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 57.8256
+Edit score: 53.9599
+F1@0.10: 58.0282
+F1@0.25: 54.0845
+F1@0.50: 38.3099
+Validation:: Probability Accuracy 57.825552825552826
+Other scores:: Edit 53.95993763359002, F1@[10:25:50] [58.02816901 54.08450704 38.30985915]
+Starting Training
+Epoch 53 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 54.4103
+Edit score: 63.7966
+F1@0.10: 65.1466
+F1@0.25: 59.9349
+F1@0.50: 41.0423
+Validation:: Probability Accuracy 54.41031941031941
+Other scores:: Edit 63.79660840867738, F1@[10:25:50] [65.1465798  59.93485342 41.04234528]
+Starting Training
+Epoch 54 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 56.1057
+Edit score: 65.4242
+F1@0.10: 67.6056
+F1@0.25: 61.2676
+F1@0.50: 45.7746
+Validation:: Probability Accuracy 56.105651105651106
+Other scores:: Edit 65.42419179261285, F1@[10:25:50] [67.6056338  61.26760563 45.77464789]
+Starting Training
+Epoch 55 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 56.9779
+Edit score: 68.0768
+F1@0.10: 72.3247
+F1@0.25: 63.4686
+F1@0.50: 42.8044
+Validation:: Probability Accuracy 56.977886977886975
+Other scores:: Edit 68.07678605038853, F1@[10:25:50] [72.32472325 63.46863469 42.80442804]
+Starting Training
+Epoch 56 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 59.7420
+Edit score: 68.2612
+F1@0.10: 70.9434
+F1@0.25: 67.1698
+F1@0.50: 49.0566
+Validation:: Probability Accuracy 59.74201474201474
+Other scores:: Edit 68.26123927832002, F1@[10:25:50] [70.94339623 67.16981132 49.05660377]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  73.51%, boundary mse  24.87
+Starting Training
+Epoch 57 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 60.1474
+Edit score: 64.7834
+F1@0.10: 69.5652
+F1@0.25: 63.7681
+F1@0.50: 45.6522
+Validation:: Probability Accuracy 60.14742014742015
+Other scores:: Edit 64.78336019722575, F1@[10:25:50] [69.56521739 63.76811594 45.65217391]
+Starting Training
+Epoch 58 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 59.3489
+Edit score: 67.0918
+F1@0.10: 71.4829
+F1@0.25: 63.1179
+F1@0.50: 44.8669
+Validation:: Probability Accuracy 59.34889434889435
+Other scores:: Edit 67.09183673469389, F1@[10:25:50] [71.48288973 63.11787072 44.86692015]
+Starting Training
+Epoch 59 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 61.7322
+Edit score: 71.5195
+F1@0.10: 72.9323
+F1@0.25: 68.4211
+F1@0.50: 51.8797
+Validation:: Probability Accuracy 61.73218673218673
+Other scores:: Edit 71.519520851819, F1@[10:25:50] [72.93233083 68.42105263 51.87969925]
+Starting Training
+Epoch 60 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 59.2752
+Edit score: 67.1944
+F1@0.10: 73.1707
+F1@0.25: 67.4797
+F1@0.50: 48.7805
+Validation:: Probability Accuracy 59.27518427518427
+Other scores:: Edit 67.19437775110045, F1@[10:25:50] [73.17073171 67.4796748  48.7804878 ]
+Starting Training
+Epoch 61 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 60.7740
+Edit score: 66.9828
+F1@0.10: 71.2644
+F1@0.25: 63.6015
+F1@0.50: 45.9770
+Validation:: Probability Accuracy 60.77395577395578
+Other scores:: Edit 66.98283858998145, F1@[10:25:50] [71.26436782 63.60153257 45.97701149]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  74.58%, boundary mse  24.58
+Starting Training
+Epoch 62 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 62.5921
+Edit score: 69.1156
+F1@0.10: 74.9091
+F1@0.25: 66.1818
+F1@0.50: 45.8182
+Validation:: Probability Accuracy 62.59213759213759
+Other scores:: Edit 69.1156462585034, F1@[10:25:50] [74.90909091 66.18181818 45.81818182]
+Starting Training
+Epoch 63 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 60.5528
+Edit score: 65.7443
+F1@0.10: 74.1036
+F1@0.25: 64.5418
+F1@0.50: 45.4183
+Validation:: Probability Accuracy 60.55282555282555
+Other scores:: Edit 65.74433106575964, F1@[10:25:50] [74.10358566 64.54183267 45.41832669]
+Starting Training
+Epoch 64 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 62.0516
+Edit score: 70.1006
+F1@0.10: 75.2941
+F1@0.25: 67.4510
+F1@0.50: 46.2745
+Validation:: Probability Accuracy 62.05159705159705
+Other scores:: Edit 70.10060866451845, F1@[10:25:50] [75.29411765 67.45098039 46.2745098 ]
+Starting Training
+Epoch 65 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 60.7002
+Edit score: 70.0649
+F1@0.10: 74.9004
+F1@0.25: 66.9323
+F1@0.50: 50.1992
+Validation:: Probability Accuracy 60.7002457002457
+Other scores:: Edit 70.06489437880415, F1@[10:25:50] [74.90039841 66.93227092 50.19920319]
+Starting Training
+Epoch 66 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 62.1867
+Edit score: 69.5181
+F1@0.10: 75.0988
+F1@0.25: 66.4032
+F1@0.50: 48.2213
+Validation:: Probability Accuracy 62.186732186732186
+Other scores:: Edit 69.5181202915949, F1@[10:25:50] [75.09881423 66.40316206 48.22134387]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  75.08%, boundary mse  24.47
+Starting Training
+Epoch 67 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 64.3612
+Edit score: 70.2215
+F1@0.10: 76.0148
+F1@0.25: 69.3727
+F1@0.50: 45.7565
+Validation:: Probability Accuracy 64.36117936117937
+Other scores:: Edit 70.22149147149148, F1@[10:25:50] [76.01476015 69.37269373 45.75645756]
+Starting Training
+Epoch 68 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 62.5676
+Edit score: 68.2637
+F1@0.10: 75.5906
+F1@0.25: 69.2913
+F1@0.50: 47.2441
+Validation:: Probability Accuracy 62.567567567567565
+Other scores:: Edit 68.26370548219288, F1@[10:25:50] [75.59055118 69.29133858 47.24409449]
+Starting Training
+Epoch 69 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 62.9361
+Edit score: 70.0460
+F1@0.10: 77.3438
+F1@0.25: 68.7500
+F1@0.50: 48.4375
+Validation:: Probability Accuracy 62.93611793611794
+Other scores:: Edit 70.04601840736295, F1@[10:25:50] [77.34375 68.75    48.4375 ]
+Starting Training
+Epoch 70 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 63.3292
+Edit score: 71.1311
+F1@0.10: 76.5625
+F1@0.25: 68.7500
+F1@0.50: 49.2188
+Validation:: Probability Accuracy 63.32923832923833
+Other scores:: Edit 71.13105242096839, F1@[10:25:50] [76.5625  68.75    49.21875]
+Starting Training
+Epoch 71 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 63.2310
+Edit score: 69.1780
+F1@0.10: 74.7082
+F1@0.25: 67.7043
+F1@0.50: 49.0272
+Validation:: Probability Accuracy 63.23095823095823
+Other scores:: Edit 69.17798423717313, F1@[10:25:50] [74.70817121 67.70428016 49.02723735]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  75.27%, boundary mse  24.43
+Starting Training
+Epoch 72 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.1597
+Edit score: 73.2827
+F1@0.10: 78.9272
+F1@0.25: 73.5632
+F1@0.50: 50.5747
+Validation:: Probability Accuracy 65.15970515970515
+Other scores:: Edit 73.28274955467135, F1@[10:25:50] [78.92720307 73.56321839 50.57471264]
+Starting Training
+Epoch 73 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 63.6364
+Edit score: 72.2110
+F1@0.10: 77.1654
+F1@0.25: 70.8661
+F1@0.50: 49.6063
+Validation:: Probability Accuracy 63.63636363636363
+Other scores:: Edit 72.21102986649205, F1@[10:25:50] [77.16535433 70.86614173 49.60629921]
+Starting Training
+Epoch 74 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 64.6560
+Edit score: 70.9625
+F1@0.10: 78.5992
+F1@0.25: 73.1518
+F1@0.50: 51.3619
+Validation:: Probability Accuracy 64.65601965601965
+Other scores:: Edit 70.96253046673215, F1@[10:25:50] [78.59922179 73.15175097 51.3618677 ]
+Starting Training
+Epoch 75 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 63.4521
+Edit score: 70.8907
+F1@0.10: 75.6972
+F1@0.25: 70.9163
+F1@0.50: 50.1992
+Validation:: Probability Accuracy 63.452088452088454
+Other scores:: Edit 70.89073890425736, F1@[10:25:50] [75.69721116 70.91633466 50.19920319]
+Starting Training
+Epoch 76 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 64.4226
+Edit score: 73.5716
+F1@0.10: 79.0514
+F1@0.25: 73.5178
+F1@0.50: 52.9644
+Validation:: Probability Accuracy 64.42260442260442
+Other scores:: Edit 73.57157408417912, F1@[10:25:50] [79.0513834  73.51778656 52.96442688]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  75.56%, boundary mse  24.36
+Starting Training
+Epoch 77 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.1671
+Edit score: 72.7167
+F1@0.10: 78.9272
+F1@0.25: 75.0958
+F1@0.50: 55.1724
+Validation:: Probability Accuracy 66.16707616707616
+Other scores:: Edit 72.71668979743514, F1@[10:25:50] [78.92720307 75.09578544 55.17241379]
+Starting Training
+Epoch 78 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 64.6683
+Edit score: 72.0170
+F1@0.10: 78.1250
+F1@0.25: 74.2188
+F1@0.50: 53.9063
+Validation:: Probability Accuracy 64.66830466830467
+Other scores:: Edit 72.01695223543963, F1@[10:25:50] [78.125   74.21875 53.90625]
+Starting Training
+Epoch 79 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.2211
+Edit score: 74.4587
+F1@0.10: 76.0456
+F1@0.25: 73.0038
+F1@0.50: 53.9924
+Validation:: Probability Accuracy 65.22113022113022
+Other scores:: Edit 74.4586660751257, F1@[10:25:50] [76.04562738 73.00380228 53.99239544]
+Starting Training
+Epoch 80 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 64.2383
+Edit score: 74.3031
+F1@0.10: 76.5625
+F1@0.25: 72.6562
+F1@0.50: 50.7812
+Validation:: Probability Accuracy 64.23832923832924
+Other scores:: Edit 74.30306668121794, F1@[10:25:50] [76.5625  72.65625 50.78125]
+Starting Training
+Epoch 81 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.1597
+Edit score: 74.1514
+F1@0.10: 78.9272
+F1@0.25: 74.3295
+F1@0.50: 50.5747
+Validation:: Probability Accuracy 65.15970515970515
+Other scores:: Edit 74.15142397285254, F1@[10:25:50] [78.92720307 74.32950192 50.57471264]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  75.71%, boundary mse  24.31
+Starting Training
+Epoch 82 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.3759
+Edit score: 74.8741
+F1@0.10: 78.7879
+F1@0.25: 76.5152
+F1@0.50: 56.0606
+Validation:: Probability Accuracy 66.37592137592138
+Other scores:: Edit 74.87412114604295, F1@[10:25:50] [78.78787879 76.51515152 56.06060606]
+Starting Training
+Epoch 83 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.4914
+Edit score: 74.7212
+F1@0.10: 79.0698
+F1@0.25: 75.9690
+F1@0.50: 53.4884
+Validation:: Probability Accuracy 65.4914004914005
+Other scores:: Edit 74.72118847539015, F1@[10:25:50] [79.06976744 75.96899225 53.48837209]
+Starting Training
+Epoch 84 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.3931
+Edit score: 73.3913
+F1@0.10: 78.1609
+F1@0.25: 74.3295
+F1@0.50: 52.1073
+Validation:: Probability Accuracy 65.3931203931204
+Other scores:: Edit 73.39129085977825, F1@[10:25:50] [78.16091954 74.32950192 52.10727969]
+Starting Training
+Epoch 85 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.5528
+Edit score: 73.2027
+F1@0.10: 77.9923
+F1@0.25: 74.1313
+F1@0.50: 54.0541
+Validation:: Probability Accuracy 65.55282555282555
+Other scores:: Edit 73.20266995687165, F1@[10:25:50] [77.99227799 74.13127413 54.05405405]
+Starting Training
+Epoch 86 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.6265
+Edit score: 75.4015
+F1@0.10: 80.4688
+F1@0.25: 75.0000
+F1@0.50: 54.6875
+Validation:: Probability Accuracy 65.62653562653563
+Other scores:: Edit 75.4014605842337, F1@[10:25:50] [80.46875 75.      54.6875 ]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  75.85%, boundary mse  24.29
+Starting Training
+Epoch 87 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.3268
+Edit score: 73.6472
+F1@0.10: 76.5152
+F1@0.25: 73.4848
+F1@0.50: 55.3030
+Validation:: Probability Accuracy 66.32678132678133
+Other scores:: Edit 73.64720888355342, F1@[10:25:50] [76.51515152 73.48484848 55.3030303 ]
+Starting Training
+Epoch 88 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.5651
+Edit score: 73.0953
+F1@0.10: 78.7402
+F1@0.25: 76.3780
+F1@0.50: 54.3307
+Validation:: Probability Accuracy 65.56511056511056
+Other scores:: Edit 73.0953381352541, F1@[10:25:50] [78.74015748 76.37795276 54.33070866]
+Starting Training
+Epoch 89 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.8108
+Edit score: 74.9525
+F1@0.10: 78.7645
+F1@0.25: 74.9035
+F1@0.50: 53.2819
+Validation:: Probability Accuracy 65.8108108108108
+Other scores:: Edit 74.95248099239697, F1@[10:25:50] [78.76447876 74.9034749  53.28185328]
+Starting Training
+Epoch 90 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.8231
+Edit score: 73.9525
+F1@0.10: 77.6471
+F1@0.25: 75.2941
+F1@0.50: 56.4706
+Validation:: Probability Accuracy 65.82309582309583
+Other scores:: Edit 73.95248099239696, F1@[10:25:50] [77.64705882 75.29411765 56.47058824]
+Starting Training
+Epoch 91 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 64.9631
+Edit score: 72.4151
+F1@0.10: 77.9528
+F1@0.25: 74.8031
+F1@0.50: 55.1181
+Validation:: Probability Accuracy 64.96314496314497
+Other scores:: Edit 72.41506602641057, F1@[10:25:50] [77.95275591 74.80314961 55.11811024]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.08%, boundary mse  24.24
+Starting Training
+Epoch 92 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.0934
+Edit score: 75.2926
+F1@0.10: 76.9231
+F1@0.25: 73.8462
+F1@0.50: 56.1538
+Validation:: Probability Accuracy 66.0933660933661
+Other scores:: Edit 75.29261704681872, F1@[10:25:50] [76.92307692 73.84615385 56.15384615]
+Starting Training
+Epoch 93 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.5283
+Edit score: 74.8426
+F1@0.10: 78.9062
+F1@0.25: 76.5625
+F1@0.50: 57.8125
+Validation:: Probability Accuracy 65.52825552825553
+Other scores:: Edit 74.84259088250685, F1@[10:25:50] [78.90625 76.5625  57.8125 ]
+Starting Training
+Epoch 94 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.5528
+Edit score: 75.3486
+F1@0.10: 76.5152
+F1@0.25: 72.7273
+F1@0.50: 53.7879
+Validation:: Probability Accuracy 65.55282555282555
+Other scores:: Edit 75.3486394557823, F1@[10:25:50] [76.51515152 72.72727273 53.78787879]
+Starting Training
+Epoch 95 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.1966
+Edit score: 76.1749
+F1@0.10: 78.7645
+F1@0.25: 75.6757
+F1@0.50: 54.8263
+Validation:: Probability Accuracy 65.1965601965602
+Other scores:: Edit 76.1748808835275, F1@[10:25:50] [78.76447876 75.67567568 54.82625483]
+Starting Training
+Epoch 96 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.1425
+Edit score: 74.9865
+F1@0.10: 77.5665
+F1@0.25: 74.5247
+F1@0.50: 58.5551
+Validation:: Probability Accuracy 66.14250614250614
+Other scores:: Edit 74.98649459783914, F1@[10:25:50] [77.56653992 74.52471483 58.55513308]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.40%, boundary mse  24.15
+Starting Training
+Epoch 97 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.6216
+Edit score: 75.6963
+F1@0.10: 78.0303
+F1@0.25: 75.0000
+F1@0.50: 56.8182
+Validation:: Probability Accuracy 66.62162162162163
+Other scores:: Edit 75.69629275998254, F1@[10:25:50] [78.03030303 75.         56.81818182]
+Starting Training
+Epoch 98 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.2408
+Edit score: 74.8504
+F1@0.10: 78.1609
+F1@0.25: 76.6284
+F1@0.50: 59.7701
+Validation:: Probability Accuracy 66.24078624078624
+Other scores:: Edit 74.85044017607042, F1@[10:25:50] [78.16091954 76.62835249 59.77011494]
+Starting Training
+Epoch 99 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.6880
+Edit score: 75.0075
+F1@0.10: 79.2308
+F1@0.25: 76.9231
+F1@0.50: 59.2308
+Validation:: Probability Accuracy 65.68796068796068
+Other scores:: Edit 75.00747268604411, F1@[10:25:50] [79.23076923 76.92307692 59.23076923]
+Starting Training
+Epoch 100 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.3145
+Edit score: 75.3143
+F1@0.10: 77.8626
+F1@0.25: 75.5725
+F1@0.50: 58.7786
+Validation:: Probability Accuracy 66.31449631449631
+Other scores:: Edit 75.31426206846375, F1@[10:25:50] [77.86259542 75.57251908 58.77862595]
+Starting Training
+Epoch 101 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.7985
+Edit score: 74.4763
+F1@0.10: 78.7645
+F1@0.25: 75.6757
+F1@0.50: 58.6873
+Validation:: Probability Accuracy 65.7985257985258
+Other scores:: Edit 74.47629051620649, F1@[10:25:50] [78.76447876 75.67567568 58.68725869]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.61%, boundary mse  24.09
+Starting Training
+Epoch 102 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.0688
+Edit score: 75.5207
+F1@0.10: 77.3946
+F1@0.25: 75.0958
+F1@0.50: 57.4713
+Validation:: Probability Accuracy 66.06879606879608
+Other scores:: Edit 75.52070828331333, F1@[10:25:50] [77.39463602 75.09578544 57.47126437]
+Starting Training
+Epoch 103 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.9828
+Edit score: 76.1063
+F1@0.10: 80.1556
+F1@0.25: 77.0428
+F1@0.50: 58.3658
+Validation:: Probability Accuracy 65.98280098280098
+Other scores:: Edit 76.1063271462431, F1@[10:25:50] [80.15564202 77.04280156 58.36575875]
+Starting Training
+Epoch 104 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.1425
+Edit score: 75.1806
+F1@0.10: 77.8626
+F1@0.25: 75.5725
+F1@0.50: 58.0153
+Validation:: Probability Accuracy 66.14250614250614
+Other scores:: Edit 75.18057222889156, F1@[10:25:50] [77.86259542 75.57251908 58.01526718]
+Starting Training
+Epoch 105 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.8845
+Edit score: 77.8290
+F1@0.10: 78.6260
+F1@0.25: 75.5725
+F1@0.50: 57.2519
+Validation:: Probability Accuracy 65.88452088452088
+Other scores:: Edit 77.82901622187337, F1@[10:25:50] [78.6259542  75.57251908 57.2519084 ]
+Starting Training
+Epoch 106 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.9337
+Edit score: 74.4763
+F1@0.10: 78.7645
+F1@0.25: 74.9035
+F1@0.50: 60.2317
+Validation:: Probability Accuracy 65.93366093366093
+Other scores:: Edit 74.47629051620649, F1@[10:25:50] [78.76447876 74.9034749  60.23166023]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.76%, boundary mse  24.05
+Starting Training
+Epoch 107 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 67.4816
+Edit score: 75.2305
+F1@0.10: 80.0000
+F1@0.25: 75.4717
+F1@0.50: 61.1321
+Validation:: Probability Accuracy 67.48157248157248
+Other scores:: Edit 75.23045425066577, F1@[10:25:50] [80.         75.47169811 61.13207547]
+Starting Training
+Epoch 108 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.2039
+Edit score: 76.0512
+F1@0.10: 78.3270
+F1@0.25: 76.8061
+F1@0.50: 61.5970
+Validation:: Probability Accuracy 66.2039312039312
+Other scores:: Edit 76.05124372981516, F1@[10:25:50] [78.3269962  76.80608365 61.59695817]
+Starting Training
+Epoch 109 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.3882
+Edit score: 73.1711
+F1@0.10: 76.0456
+F1@0.25: 73.7643
+F1@0.50: 58.5551
+Validation:: Probability Accuracy 66.38820638820638
+Other scores:: Edit 73.17108504843944, F1@[10:25:50] [76.04562738 73.76425856 58.55513308]
+Starting Training
+Epoch 110 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 65.8354
+Edit score: 74.0914
+F1@0.10: 77.3946
+F1@0.25: 75.8621
+F1@0.50: 59.7701
+Validation:: Probability Accuracy 65.83538083538083
+Other scores:: Edit 74.09137165838122, F1@[10:25:50] [77.39463602 75.86206897 59.77011494]
+Starting Training
+Epoch 111 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.0319
+Edit score: 73.8150
+F1@0.10: 78.2946
+F1@0.25: 75.1938
+F1@0.50: 58.1395
+Validation:: Probability Accuracy 66.03194103194103
+Other scores:: Edit 73.8150469978201, F1@[10:25:50] [78.29457364 75.19379845 58.13953488]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.79%, boundary mse  24.01
+Starting Training
+Epoch 112 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.9902
+Edit score: 75.4743
+F1@0.10: 76.2264
+F1@0.25: 73.9623
+F1@0.50: 57.3585
+Validation:: Probability Accuracy 66.99017199017199
+Other scores:: Edit 75.47432609407399, F1@[10:25:50] [76.22641509 73.96226415 57.35849057]
+Starting Training
+Epoch 113 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.7322
+Edit score: 77.2771
+F1@0.10: 79.5455
+F1@0.25: 75.7576
+F1@0.50: 59.0909
+Validation:: Probability Accuracy 66.73218673218673
+Other scores:: Edit 77.27706299911269, F1@[10:25:50] [79.54545455 75.75757576 59.09090909]
+Starting Training
+Epoch 114 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.1425
+Edit score: 72.2290
+F1@0.10: 77.2201
+F1@0.25: 74.9035
+F1@0.50: 57.9151
+Validation:: Probability Accuracy 66.14250614250614
+Other scores:: Edit 72.2290279748263, F1@[10:25:50] [77.22007722 74.9034749  57.91505792]
+Starting Training
+Epoch 115 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.1916
+Edit score: 72.5612
+F1@0.10: 77.8626
+F1@0.25: 75.5725
+F1@0.50: 58.0153
+Validation:: Probability Accuracy 66.19164619164619
+Other scores:: Edit 72.56117664457086, F1@[10:25:50] [77.86259542 75.57251908 58.01526718]
+Starting Training
+Epoch 116 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.5233
+Edit score: 75.3033
+F1@0.10: 79.3893
+F1@0.25: 77.0992
+F1@0.50: 60.3053
+Validation:: Probability Accuracy 66.52334152334153
+Other scores:: Edit 75.30328798185941, F1@[10:25:50] [79.38931298 77.09923664 60.30534351]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.95%, boundary mse  23.97
+Starting Training
+Epoch 117 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.8059
+Edit score: 74.9348
+F1@0.10: 77.9026
+F1@0.25: 75.6554
+F1@0.50: 59.1760
+Validation:: Probability Accuracy 66.80589680589681
+Other scores:: Edit 74.9348157553876, F1@[10:25:50] [77.90262172 75.65543071 59.17602996]
+Starting Training
+Epoch 118 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 67.5921
+Edit score: 75.7725
+F1@0.10: 82.3077
+F1@0.25: 77.6923
+F1@0.50: 61.5385
+Validation:: Probability Accuracy 67.59213759213759
+Other scores:: Edit 75.77246115837639, F1@[10:25:50] [82.30769231 77.69230769 61.53846154]
+Starting Training
+Epoch 119 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.5971
+Edit score: 75.9458
+F1@0.10: 80.3089
+F1@0.25: 77.2201
+F1@0.50: 61.0039
+Validation:: Probability Accuracy 66.5970515970516
+Other scores:: Edit 75.94576719576719, F1@[10:25:50] [80.30888031 77.22007722 61.003861  ]
+Starting Training
+Epoch 120 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.2899
+Edit score: 71.5071
+F1@0.10: 75.8621
+F1@0.25: 74.3295
+F1@0.50: 57.4713
+Validation:: Probability Accuracy 66.28992628992629
+Other scores:: Edit 71.50710284113646, F1@[10:25:50] [75.86206897 74.32950192 57.47126437]
+Starting Training
+Epoch 121 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.5012
+Edit score: 75.4101
+F1@0.10: 82.1293
+F1@0.25: 79.0875
+F1@0.50: 63.1179
+Validation:: Probability Accuracy 68.5012285012285
+Other scores:: Edit 75.41009398928654, F1@[10:25:50] [82.12927757 79.08745247 63.11787072]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  76.93%, boundary mse  23.94
+Starting Training
+Epoch 122 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.0590
+Edit score: 76.0021
+F1@0.10: 79.8507
+F1@0.25: 77.6119
+F1@0.50: 61.9403
+Validation:: Probability Accuracy 68.05896805896806
+Other scores:: Edit 76.00210140157044, F1@[10:25:50] [79.85074627 77.6119403  61.94029851]
+Starting Training
+Epoch 123 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.8943
+Edit score: 75.8223
+F1@0.10: 81.8533
+F1@0.25: 77.9923
+F1@0.50: 60.2317
+Validation:: Probability Accuracy 68.8943488943489
+Other scores:: Edit 75.82228345883809, F1@[10:25:50] [81.85328185 77.99227799 60.23166023]
+Starting Training
+Epoch 124 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.2678
+Edit score: 74.6301
+F1@0.10: 80.1527
+F1@0.25: 77.0992
+F1@0.50: 61.8321
+Validation:: Probability Accuracy 68.26781326781327
+Other scores:: Edit 74.6300824404997, F1@[10:25:50] [80.15267176 77.09923664 61.83206107]
+Starting Training
+Epoch 125 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.3170
+Edit score: 78.0707
+F1@0.10: 82.1293
+F1@0.25: 77.5665
+F1@0.50: 62.3574
+Validation:: Probability Accuracy 68.31695331695332
+Other scores:: Edit 78.07071379276348, F1@[10:25:50] [82.12927757 77.56653992 62.35741445]
+Starting Training
+Epoch 126 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.8575
+Edit score: 78.9253
+F1@0.10: 81.9549
+F1@0.25: 77.4436
+F1@0.50: 63.9098
+Validation:: Probability Accuracy 68.85749385749386
+Other scores:: Edit 78.92534600046915, F1@[10:25:50] [81.95488722 77.44360902 63.90977444]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.10%, boundary mse  23.91
+Starting Training
+Epoch 127 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.4644
+Edit score: 74.6836
+F1@0.10: 79.4007
+F1@0.25: 76.4045
+F1@0.50: 59.9251
+Validation:: Probability Accuracy 68.46437346437347
+Other scores:: Edit 74.68360430296521, F1@[10:25:50] [79.40074906 76.40449438 59.92509363]
+Starting Training
+Epoch 128 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9926
+Edit score: 75.4717
+F1@0.10: 82.9091
+F1@0.25: 77.8182
+F1@0.50: 61.8182
+Validation:: Probability Accuracy 68.992628992629
+Other scores:: Edit 75.47165683249428, F1@[10:25:50] [82.90909091 77.81818182 61.81818182]
+Starting Training
+Epoch 129 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9558
+Edit score: 75.9998
+F1@0.10: 79.6992
+F1@0.25: 77.4436
+F1@0.50: 63.1579
+Validation:: Probability Accuracy 68.95577395577395
+Other scores:: Edit 75.99980314706526, F1@[10:25:50] [79.69924812 77.44360902 63.15789474]
+Starting Training
+Epoch 130 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.6978
+Edit score: 75.1145
+F1@0.10: 82.1293
+F1@0.25: 77.5665
+F1@0.50: 64.6388
+Validation:: Probability Accuracy 68.6977886977887
+Other scores:: Edit 75.1144738255122, F1@[10:25:50] [82.12927757 77.56653992 64.63878327]
+Starting Training
+Epoch 131 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.0713
+Edit score: 72.8913
+F1@0.10: 77.4908
+F1@0.25: 75.2768
+F1@0.50: 58.3026
+Validation:: Probability Accuracy 68.07125307125307
+Other scores:: Edit 72.89134542705972, F1@[10:25:50] [77.49077491 75.27675277 58.30258303]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.17%, boundary mse  23.89
+Starting Training
+Epoch 132 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.8943
+Edit score: 75.9392
+F1@0.10: 80.4511
+F1@0.25: 76.6917
+F1@0.50: 62.4060
+Validation:: Probability Accuracy 68.8943488943489
+Other scores:: Edit 75.93919451838705, F1@[10:25:50] [80.45112782 76.69172932 62.40601504]
+Starting Training
+Epoch 133 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.1892
+Edit score: 75.9325
+F1@0.10: 81.3688
+F1@0.25: 77.5665
+F1@0.50: 63.8783
+Validation:: Probability Accuracy 69.1891891891892
+Other scores:: Edit 75.93252518398663, F1@[10:25:50] [81.36882129 77.56653992 63.878327  ]
+Starting Training
+Epoch 134 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.0049
+Edit score: 74.8601
+F1@0.10: 79.8507
+F1@0.25: 76.8657
+F1@0.50: 61.1940
+Validation:: Probability Accuracy 69.004914004914
+Other scores:: Edit 74.86008039579467, F1@[10:25:50] [79.85074627 76.86567164 61.19402985]
+Starting Training
+Epoch 135 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 67.5553
+Edit score: 72.3594
+F1@0.10: 76.0148
+F1@0.25: 73.8007
+F1@0.50: 56.8266
+Validation:: Probability Accuracy 67.55528255528256
+Other scores:: Edit 72.359443777511, F1@[10:25:50] [76.01476015 73.80073801 56.82656827]
+Starting Training
+Epoch 136 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9189
+Edit score: 75.5404
+F1@0.10: 80.5970
+F1@0.25: 77.6119
+F1@0.50: 63.4328
+Validation:: Probability Accuracy 68.91891891891892
+Other scores:: Edit 75.54035250463822, F1@[10:25:50] [80.59701493 77.6119403  63.43283582]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.21%, boundary mse  23.86
+Starting Training
+Epoch 137 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.2506
+Edit score: 74.9471
+F1@0.10: 80.7407
+F1@0.25: 77.7778
+F1@0.50: 64.4444
+Validation:: Probability Accuracy 69.25061425061425
+Other scores:: Edit 74.94713102632356, F1@[10:25:50] [80.74074074 77.77777778 64.44444444]
+Starting Training
+Epoch 138 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.3489
+Edit score: 77.1907
+F1@0.10: 81.2030
+F1@0.25: 77.4436
+F1@0.50: 63.1579
+Validation:: Probability Accuracy 69.34889434889435
+Other scores:: Edit 77.19065212291812, F1@[10:25:50] [81.20300752 77.44360902 63.15789474]
+Starting Training
+Epoch 139 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.3980
+Edit score: 75.8122
+F1@0.10: 80.8989
+F1@0.25: 77.9026
+F1@0.50: 63.6704
+Validation:: Probability Accuracy 69.3980343980344
+Other scores:: Edit 75.81220600762991, F1@[10:25:50] [80.8988764  77.90262172 63.67041199]
+Starting Training
+Epoch 140 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.8206
+Edit score: 74.3963
+F1@0.10: 82.6255
+F1@0.25: 78.7645
+F1@0.50: 64.0927
+Validation:: Probability Accuracy 68.82063882063882
+Other scores:: Edit 74.39625850340136, F1@[10:25:50] [82.62548263 78.76447876 64.09266409]
+Starting Training
+Epoch 141 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.8821
+Edit score: 76.1026
+F1@0.10: 80.9160
+F1@0.25: 76.3359
+F1@0.50: 62.5954
+Validation:: Probability Accuracy 68.88206388206389
+Other scores:: Edit 76.10259321119752, F1@[10:25:50] [80.91603053 76.33587786 62.59541985]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.19%, boundary mse  23.82
+Starting Training
+Epoch 142 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.9754
+Edit score: 75.0662
+F1@0.10: 81.2030
+F1@0.25: 78.9474
+F1@0.50: 65.4135
+Validation:: Probability Accuracy 69.97542997542998
+Other scores:: Edit 75.0661786453712, F1@[10:25:50] [81.20300752 78.94736842 65.41353383]
+Starting Training
+Epoch 143 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9926
+Edit score: 76.0334
+F1@0.10: 81.2030
+F1@0.25: 77.4436
+F1@0.50: 63.1579
+Validation:: Probability Accuracy 68.992628992629
+Other scores:: Edit 76.0333678926116, F1@[10:25:50] [81.20300752 77.44360902 63.15789474]
+Starting Training
+Epoch 144 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.1278
+Edit score: 76.6195
+F1@0.10: 81.0606
+F1@0.25: 78.7879
+F1@0.50: 63.6364
+Validation:: Probability Accuracy 69.12776412776412
+Other scores:: Edit 76.61946662723061, F1@[10:25:50] [81.06060606 78.78787879 63.63636364]
+Starting Training
+Epoch 145 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.0418
+Edit score: 74.9121
+F1@0.10: 81.5094
+F1@0.25: 77.7358
+F1@0.50: 62.6415
+Validation:: Probability Accuracy 69.04176904176904
+Other scores:: Edit 74.91211702072133, F1@[10:25:50] [81.50943396 77.73584906 62.64150943]
+Starting Training
+Epoch 146 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.8329
+Edit score: 75.3417
+F1@0.10: 79.8535
+F1@0.25: 73.9927
+F1@0.50: 60.8059
+Validation:: Probability Accuracy 68.83292383292384
+Other scores:: Edit 75.34171738870987, F1@[10:25:50] [79.85347985 73.99267399 60.80586081]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.44%, boundary mse  23.74
+Starting Training
+Epoch 147 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.5455
+Edit score: 78.3983
+F1@0.10: 82.8358
+F1@0.25: 77.6119
+F1@0.50: 62.6866
+Validation:: Probability Accuracy 69.54545454545455
+Other scores:: Edit 78.39834320825103, F1@[10:25:50] [82.8358209  77.6119403  62.68656716]
+Starting Training
+Epoch 148 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.5258
+Edit score: 74.9019
+F1@0.10: 80.4428
+F1@0.25: 73.8007
+F1@0.50: 59.7786
+Validation:: Probability Accuracy 68.52579852579852
+Other scores:: Edit 74.90192743764172, F1@[10:25:50] [80.44280443 73.80073801 59.77859779]
+Starting Training
+Epoch 149 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.2875
+Edit score: 75.7796
+F1@0.10: 80.1471
+F1@0.25: 73.5294
+F1@0.50: 63.2353
+Validation:: Probability Accuracy 69.28746928746929
+Other scores:: Edit 75.7796118447379, F1@[10:25:50] [80.14705882 73.52941176 63.23529412]
+Starting Training
+Epoch 150 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.7174
+Edit score: 77.6878
+F1@0.10: 82.4427
+F1@0.25: 76.3359
+F1@0.50: 60.3053
+Validation:: Probability Accuracy 69.71744471744472
+Other scores:: Edit 77.68784161630991, F1@[10:25:50] [82.44274809 76.33587786 60.30534351]
+Starting Training
+Epoch 151 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.1695
+Edit score: 76.2735
+F1@0.10: 79.5455
+F1@0.25: 75.7576
+F1@0.50: 61.3636
+Validation:: Probability Accuracy 68.16953316953317
+Other scores:: Edit 76.273478769722, F1@[10:25:50] [79.54545455 75.75757576 61.36363636]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.54%, boundary mse  23.74
+Starting Training
+Epoch 152 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.4717
+Edit score: 76.9278
+F1@0.10: 80.9160
+F1@0.25: 76.3359
+F1@0.50: 61.8321
+Validation:: Probability Accuracy 69.47174447174447
+Other scores:: Edit 76.92781658117792, F1@[10:25:50] [80.91603053 76.33587786 61.83206107]
+Starting Training
+Epoch 153 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.3243
+Edit score: 75.2430
+F1@0.10: 81.5094
+F1@0.25: 76.9811
+F1@0.50: 61.1321
+Validation:: Probability Accuracy 69.32432432432432
+Other scores:: Edit 75.24295495324229, F1@[10:25:50] [81.50943396 76.98113208 61.13207547]
+Starting Training
+Epoch 154 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.0909
+Edit score: 74.5978
+F1@0.10: 79.0875
+F1@0.25: 76.8061
+F1@0.50: 60.0760
+Validation:: Probability Accuracy 69.0909090909091
+Other scores:: Edit 74.59779366291971, F1@[10:25:50] [79.08745247 76.80608365 60.07604563]
+Starting Training
+Epoch 155 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.4767
+Edit score: 71.7125
+F1@0.10: 76.8657
+F1@0.25: 72.3881
+F1@0.50: 59.7015
+Validation:: Probability Accuracy 68.47665847665847
+Other scores:: Edit 71.71251109139308, F1@[10:25:50] [76.86567164 72.3880597  59.70149254]
+Starting Training
+Epoch 156 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 67.9607
+Edit score: 75.2812
+F1@0.10: 82.7068
+F1@0.25: 77.4436
+F1@0.50: 64.6617
+Validation:: Probability Accuracy 67.96068796068796
+Other scores:: Edit 75.28120718552289, F1@[10:25:50] [82.70676692 77.44360902 64.66165414]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.37%, boundary mse  23.85
+Starting Training
+Epoch 157 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9803
+Edit score: 73.5976
+F1@0.10: 79.5539
+F1@0.25: 76.5799
+F1@0.50: 61.7100
+Validation:: Probability Accuracy 68.98034398034397
+Other scores:: Edit 73.59759132855179, F1@[10:25:50] [79.55390335 76.57992565 61.71003717]
+Starting Training
+Epoch 158 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.3735
+Edit score: 76.9054
+F1@0.10: 83.6502
+F1@0.25: 77.5665
+F1@0.50: 63.1179
+Validation:: Probability Accuracy 69.37346437346437
+Other scores:: Edit 76.9053780932663, F1@[10:25:50] [83.65019011 77.56653992 63.11787072]
+Starting Training
+Epoch 159 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.3292
+Edit score: 76.7013
+F1@0.10: 80.1498
+F1@0.25: 75.6554
+F1@0.50: 57.6779
+Validation:: Probability Accuracy 68.32923832923834
+Other scores:: Edit 76.70129646061322, F1@[10:25:50] [80.14981273 75.65543071 57.67790262]
+Starting Training
+Epoch 160 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9926
+Edit score: 75.0189
+F1@0.10: 81.5094
+F1@0.25: 77.7358
+F1@0.50: 64.9057
+Validation:: Probability Accuracy 68.992628992629
+Other scores:: Edit 75.01886386738603, F1@[10:25:50] [81.50943396 77.73584906 64.90566038]
+Starting Training
+Epoch 161 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 67.8993
+Edit score: 77.7155
+F1@0.10: 80.4598
+F1@0.25: 77.3946
+F1@0.50: 61.3027
+Validation:: Probability Accuracy 67.8992628992629
+Other scores:: Edit 77.71551724137932, F1@[10:25:50] [80.45977011 77.39463602 61.30268199]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.54%, boundary mse  23.84
+Starting Training
+Epoch 162 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.9386
+Edit score: 80.3723
+F1@0.10: 83.4586
+F1@0.25: 78.1955
+F1@0.50: 64.6617
+Validation:: Probability Accuracy 69.93857493857494
+Other scores:: Edit 80.37230109435077, F1@[10:25:50] [83.45864662 78.19548872 64.66165414]
+Starting Training
+Epoch 163 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.0614
+Edit score: 77.8349
+F1@0.10: 83.4586
+F1@0.25: 78.9474
+F1@0.50: 66.1654
+Validation:: Probability Accuracy 70.06142506142506
+Other scores:: Edit 77.83488754353415, F1@[10:25:50] [83.45864662 78.94736842 66.16541353]
+Starting Training
+Epoch 164 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 66.6339
+Edit score: 72.8920
+F1@0.10: 79.0698
+F1@0.25: 75.1938
+F1@0.50: 57.3643
+Validation:: Probability Accuracy 66.63390663390663
+Other scores:: Edit 72.89196983141082, F1@[10:25:50] [79.06976744 75.19379845 57.36434109]
+Starting Training
+Epoch 165 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.6609
+Edit score: 78.3716
+F1@0.10: 80.4511
+F1@0.25: 76.6917
+F1@0.50: 64.6617
+Validation:: Probability Accuracy 68.66093366093367
+Other scores:: Edit 78.37163473199128, F1@[10:25:50] [80.45112782 76.69172932 64.66165414]
+Starting Training
+Epoch 166 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.0418
+Edit score: 74.5886
+F1@0.10: 81.0606
+F1@0.25: 77.2727
+F1@0.50: 59.8485
+Validation:: Probability Accuracy 69.04176904176904
+Other scores:: Edit 74.58861805591802, F1@[10:25:50] [81.06060606 77.27272727 59.84848485]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.41%, boundary mse  23.75
+Starting Training
+Epoch 167 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.2260
+Edit score: 79.0369
+F1@0.10: 80.6084
+F1@0.25: 76.0456
+F1@0.50: 62.3574
+Validation:: Probability Accuracy 69.22604422604422
+Other scores:: Edit 79.03689736764271, F1@[10:25:50] [80.60836502 76.04562738 62.35741445]
+Starting Training
+Epoch 168 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.4300
+Edit score: 78.0960
+F1@0.10: 82.7068
+F1@0.25: 77.4436
+F1@0.50: 61.6541
+Validation:: Probability Accuracy 70.42997542997543
+Other scores:: Edit 78.09600488161604, F1@[10:25:50] [82.70676692 77.44360902 61.65413534]
+Starting Training
+Epoch 169 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.2826
+Edit score: 75.4475
+F1@0.10: 80.4428
+F1@0.25: 75.2768
+F1@0.50: 59.0406
+Validation:: Probability Accuracy 70.28255528255528
+Other scores:: Edit 75.44746159333297, F1@[10:25:50] [80.44280443 75.27675277 59.04059041]
+Starting Training
+Epoch 170 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.7838
+Edit score: 76.0897
+F1@0.10: 80.4598
+F1@0.25: 77.3946
+F1@0.50: 62.8352
+Validation:: Probability Accuracy 68.78378378378379
+Other scores:: Edit 76.0897237682952, F1@[10:25:50] [80.45977011 77.39463602 62.83524904]
+Starting Training
+Epoch 171 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.2998
+Edit score: 76.0078
+F1@0.10: 80.6084
+F1@0.25: 75.2852
+F1@0.50: 61.5970
+Validation:: Probability Accuracy 69.2997542997543
+Other scores:: Edit 76.00781221579541, F1@[10:25:50] [80.60836502 75.2851711  61.59695817]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.68%, boundary mse  23.67
+Starting Training
+Epoch 172 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.6634
+Edit score: 76.4859
+F1@0.10: 81.4815
+F1@0.25: 77.7778
+F1@0.50: 60.0000
+Validation:: Probability Accuracy 70.66339066339066
+Other scores:: Edit 76.48587695947944, F1@[10:25:50] [81.48148148 77.77777778 60.        ]
+Starting Training
+Epoch 173 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.0418
+Edit score: 75.9058
+F1@0.10: 80.6084
+F1@0.25: 75.2852
+F1@0.50: 62.3574
+Validation:: Probability Accuracy 69.04176904176904
+Other scores:: Edit 75.9058169784978, F1@[10:25:50] [80.60836502 75.2851711  62.35741445]
+Starting Training
+Epoch 174 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.8280
+Edit score: 75.9992
+F1@0.10: 83.2061
+F1@0.25: 77.8626
+F1@0.50: 62.5954
+Validation:: Probability Accuracy 69.82800982800983
+Other scores:: Edit 75.99917553228188, F1@[10:25:50] [83.20610687 77.86259542 62.59541985]
+Starting Training
+Epoch 175 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.6314
+Edit score: 74.6447
+F1@0.10: 78.8104
+F1@0.25: 75.0929
+F1@0.50: 61.7100
+Validation:: Probability Accuracy 69.63144963144963
+Other scores:: Edit 74.64469120981725, F1@[10:25:50] [78.81040892 75.0929368  61.71003717]
+Starting Training
+Epoch 176 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.1597
+Edit score: 75.0576
+F1@0.10: 82.3970
+F1@0.25: 77.9026
+F1@0.50: 63.6704
+Validation:: Probability Accuracy 70.15970515970515
+Other scores:: Edit 75.05758677556707, F1@[10:25:50] [82.39700375 77.90262172 63.67041199]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.73%, boundary mse  23.69
+Starting Training
+Epoch 177 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8108
+Edit score: 74.5287
+F1@0.10: 81.8182
+F1@0.25: 78.7879
+F1@0.50: 64.3939
+Validation:: Probability Accuracy 70.8108108108108
+Other scores:: Edit 74.52866923895658, F1@[10:25:50] [81.81818182 78.78787879 64.39393939]
+Starting Training
+Epoch 178 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.9705
+Edit score: 75.4607
+F1@0.10: 80.1471
+F1@0.25: 78.6765
+F1@0.50: 61.0294
+Validation:: Probability Accuracy 70.97051597051598
+Other scores:: Edit 75.46066512729494, F1@[10:25:50] [80.14705882 78.67647059 61.02941176]
+Starting Training
+Epoch 179 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.7174
+Edit score: 77.3649
+F1@0.10: 83.6502
+F1@0.25: 81.3688
+F1@0.50: 63.8783
+Validation:: Probability Accuracy 69.71744471744472
+Other scores:: Edit 77.36487590205164, F1@[10:25:50] [83.65019011 81.36882129 63.878327  ]
+Starting Training
+Epoch 180 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.1597
+Edit score: 78.5889
+F1@0.10: 81.5094
+F1@0.25: 76.9811
+F1@0.50: 61.8868
+Validation:: Probability Accuracy 70.15970515970515
+Other scores:: Edit 78.58886869380758, F1@[10:25:50] [81.50943396 76.98113208 61.88679245]
+Starting Training
+Epoch 181 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.2408
+Edit score: 75.0153
+F1@0.10: 81.4815
+F1@0.25: 78.5185
+F1@0.50: 63.7037
+Validation:: Probability Accuracy 71.24078624078624
+Other scores:: Edit 75.01528872418533, F1@[10:25:50] [81.48148148 78.51851852 63.7037037 ]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.70%, boundary mse  23.69
+Starting Training
+Epoch 182 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.3071
+Edit score: 78.6665
+F1@0.10: 81.3433
+F1@0.25: 78.3582
+F1@0.50: 62.6866
+Validation:: Probability Accuracy 70.3071253071253
+Other scores:: Edit 78.6664504511482, F1@[10:25:50] [81.34328358 78.35820896 62.68656716]
+Starting Training
+Epoch 183 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.5479
+Edit score: 75.4815
+F1@0.10: 81.8182
+F1@0.25: 79.5455
+F1@0.50: 65.9091
+Validation:: Probability Accuracy 71.54791154791155
+Other scores:: Edit 75.48147519877516, F1@[10:25:50] [81.81818182 79.54545455 65.90909091]
+Starting Training
+Epoch 184 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.6093
+Edit score: 75.4475
+F1@0.10: 80.7407
+F1@0.25: 78.5185
+F1@0.50: 65.1852
+Validation:: Probability Accuracy 71.60933660933661
+Other scores:: Edit 75.44746159333297, F1@[10:25:50] [80.74074074 78.51851852 65.18518519]
+Starting Training
+Epoch 185 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.1548
+Edit score: 76.7980
+F1@0.10: 82.8358
+F1@0.25: 79.1045
+F1@0.50: 61.9403
+Validation:: Probability Accuracy 71.15479115479116
+Other scores:: Edit 76.79800180941943, F1@[10:25:50] [82.8358209  79.10447761 61.94029851]
+Starting Training
+Epoch 186 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.4423
+Edit score: 74.9434
+F1@0.10: 80.4598
+F1@0.25: 76.6284
+F1@0.50: 63.6015
+Validation:: Probability Accuracy 70.44226044226045
+Other scores:: Edit 74.94341578273539, F1@[10:25:50] [80.45977011 76.62835249 63.60153257]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.80%, boundary mse  23.64
+Starting Training
+Epoch 187 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7740
+Edit score: 76.1104
+F1@0.10: 80.1498
+F1@0.25: 77.1536
+F1@0.50: 62.1723
+Validation:: Probability Accuracy 70.77395577395578
+Other scores:: Edit 76.11039870493651, F1@[10:25:50] [80.14981273 77.15355805 62.17228464]
+Starting Training
+Epoch 188 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.3563
+Edit score: 75.3121
+F1@0.10: 80.6084
+F1@0.25: 76.0456
+F1@0.50: 62.3574
+Validation:: Probability Accuracy 70.35626535626535
+Other scores:: Edit 75.31207937720544, F1@[10:25:50] [80.60836502 76.04562738 62.35741445]
+Starting Training
+Epoch 189 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.6265
+Edit score: 76.3720
+F1@0.10: 81.3688
+F1@0.25: 78.3270
+F1@0.50: 62.3574
+Validation:: Probability Accuracy 70.62653562653563
+Other scores:: Edit 76.3719872113068, F1@[10:25:50] [81.36882129 78.3269962  62.35741445]
+Starting Training
+Epoch 190 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.9140
+Edit score: 74.9874
+F1@0.10: 80.3030
+F1@0.25: 76.5152
+F1@0.50: 62.1212
+Validation:: Probability Accuracy 69.91400491400492
+Other scores:: Edit 74.98740405253011, F1@[10:25:50] [80.3030303  76.51515152 62.12121212]
+Starting Training
+Epoch 191 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.1720
+Edit score: 76.4525
+F1@0.10: 80.8989
+F1@0.25: 77.9026
+F1@0.50: 59.9251
+Validation:: Probability Accuracy 70.17199017199017
+Other scores:: Edit 76.45253555967841, F1@[10:25:50] [80.8988764  77.90262172 59.92509363]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.83%, boundary mse  23.65
+Starting Training
+Epoch 192 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.2334
+Edit score: 74.5978
+F1@0.10: 79.8479
+F1@0.25: 76.0456
+F1@0.50: 61.5970
+Validation:: Probability Accuracy 70.23341523341523
+Other scores:: Edit 74.59779366291971, F1@[10:25:50] [79.84790875 76.04562738 61.59695817]
+Starting Training
+Epoch 193 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.1916
+Edit score: 75.9827
+F1@0.10: 81.0409
+F1@0.25: 78.0669
+F1@0.50: 63.9405
+Validation:: Probability Accuracy 71.19164619164619
+Other scores:: Edit 75.98269211991017, F1@[10:25:50] [81.04089219 78.0669145  63.94052045]
+Starting Training
+Epoch 194 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.2457
+Edit score: 77.8373
+F1@0.10: 80.8989
+F1@0.25: 78.6517
+F1@0.50: 63.6704
+Validation:: Probability Accuracy 70.24570024570025
+Other scores:: Edit 77.83728708874854, F1@[10:25:50] [80.8988764  78.65168539 63.67041199]
+Starting Training
+Epoch 195 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.7297
+Edit score: 76.4938
+F1@0.10: 80.6084
+F1@0.25: 76.0456
+F1@0.50: 61.5970
+Validation:: Probability Accuracy 69.72972972972973
+Other scores:: Edit 76.49376417233559, F1@[10:25:50] [80.60836502 76.04562738 61.59695817]
+Starting Training
+Epoch 196 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8600
+Edit score: 75.5416
+F1@0.10: 80.8989
+F1@0.25: 78.6517
+F1@0.50: 62.9213
+Validation:: Probability Accuracy 70.85995085995086
+Other scores:: Edit 75.54162574120558, F1@[10:25:50] [80.8988764  78.65168539 62.92134831]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.77%, boundary mse  23.65
+Starting Training
+Epoch 197 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.5774
+Edit score: 77.5772
+F1@0.10: 81.1808
+F1@0.25: 78.2288
+F1@0.50: 64.2066
+Validation:: Probability Accuracy 70.57739557739558
+Other scores:: Edit 77.57716390071734, F1@[10:25:50] [81.18081181 78.22878229 64.20664207]
+Starting Training
+Epoch 198 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8477
+Edit score: 76.3820
+F1@0.10: 80.8989
+F1@0.25: 77.1536
+F1@0.50: 62.9213
+Validation:: Probability Accuracy 70.84766584766585
+Other scores:: Edit 76.38196187565936, F1@[10:25:50] [80.8988764  77.15355805 62.92134831]
+Starting Training
+Epoch 199 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.7912
+Edit score: 74.1862
+F1@0.10: 80.4511
+F1@0.25: 77.4436
+F1@0.50: 59.3985
+Validation:: Probability Accuracy 69.7911547911548
+Other scores:: Edit 74.18615532337336, F1@[10:25:50] [80.45112782 77.44360902 59.39849624]
+Starting Training
+Epoch 200 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.0737
+Edit score: 72.0228
+F1@0.10: 79.0875
+F1@0.25: 77.5665
+F1@0.50: 63.1179
+Validation:: Probability Accuracy 70.07371007371007
+Other scores:: Edit 72.02276365091491, F1@[10:25:50] [79.08745247 77.56653992 63.11787072]
+Starting Training
+Epoch 201 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.4423
+Edit score: 74.0109
+F1@0.10: 78.6517
+F1@0.25: 76.4045
+F1@0.50: 62.9213
+Validation:: Probability Accuracy 70.44226044226045
+Other scores:: Edit 74.01088696348104, F1@[10:25:50] [78.65168539 76.40449438 62.92134831]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.64%, boundary mse  23.62
+Starting Training
+Epoch 202 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8722
+Edit score: 80.0425
+F1@0.10: 82.2642
+F1@0.25: 80.0000
+F1@0.50: 64.1509
+Validation:: Probability Accuracy 70.87223587223588
+Other scores:: Edit 80.04251700680273, F1@[10:25:50] [82.26415094 80.         64.1509434 ]
+Starting Training
+Epoch 203 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.1229
+Edit score: 72.1704
+F1@0.10: 78.5185
+F1@0.25: 74.8148
+F1@0.50: 60.7407
+Validation:: Probability Accuracy 70.12285012285012
+Other scores:: Edit 72.17036814725891, F1@[10:25:50] [78.51851852 74.81481481 60.74074074]
+Starting Training
+Epoch 204 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8108
+Edit score: 73.9615
+F1@0.10: 79.8507
+F1@0.25: 76.8657
+F1@0.50: 61.9403
+Validation:: Probability Accuracy 70.8108108108108
+Other scores:: Edit 73.961539161119, F1@[10:25:50] [79.85074627 76.86567164 61.94029851]
+Starting Training
+Epoch 205 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.5283
+Edit score: 75.2214
+F1@0.10: 78.4906
+F1@0.25: 76.9811
+F1@0.50: 61.1321
+Validation:: Probability Accuracy 70.52825552825553
+Other scores:: Edit 75.22137642935961, F1@[10:25:50] [78.49056604 76.98113208 61.13207547]
+Starting Training
+Epoch 206 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.5946
+Edit score: 71.0330
+F1@0.10: 80.3030
+F1@0.25: 75.7576
+F1@0.50: 61.3636
+Validation:: Probability Accuracy 69.5945945945946
+Other scores:: Edit 71.03303442589157, F1@[10:25:50] [80.3030303  75.75757576 61.36363636]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.79%, boundary mse  23.62
+Starting Training
+Epoch 207 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8354
+Edit score: 78.0912
+F1@0.10: 80.1471
+F1@0.25: 77.2059
+F1@0.50: 61.7647
+Validation:: Probability Accuracy 70.83538083538083
+Other scores:: Edit 78.0911910218633, F1@[10:25:50] [80.14705882 77.20588235 61.76470588]
+Starting Training
+Epoch 208 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 68.9189
+Edit score: 73.3175
+F1@0.10: 80.8989
+F1@0.25: 73.4082
+F1@0.50: 60.6742
+Validation:: Probability Accuracy 68.91891891891892
+Other scores:: Edit 73.31747916557927, F1@[10:25:50] [80.8988764 73.4082397 60.6741573]
+Starting Training
+Epoch 209 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.5209
+Edit score: 78.1944
+F1@0.10: 79.8479
+F1@0.25: 77.5665
+F1@0.50: 61.5970
+Validation:: Probability Accuracy 69.52088452088452
+Other scores:: Edit 78.19444444444444, F1@[10:25:50] [79.84790875 77.56653992 61.59695817]
+Starting Training
+Epoch 210 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.9386
+Edit score: 73.8518
+F1@0.10: 80.5970
+F1@0.25: 72.3881
+F1@0.50: 58.9552
+Validation:: Probability Accuracy 69.93857493857494
+Other scores:: Edit 73.85177755312652, F1@[10:25:50] [80.59701493 72.3880597  58.95522388]
+Starting Training
+Epoch 211 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.6069
+Edit score: 75.7795
+F1@0.10: 78.1609
+F1@0.25: 76.6284
+F1@0.50: 59.7701
+Validation:: Probability Accuracy 69.6068796068796
+Other scores:: Edit 75.77947845804988, F1@[10:25:50] [78.16091954 76.62835249 59.77011494]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  78.05%, boundary mse  23.60
+Starting Training
+Epoch 212 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.2875
+Edit score: 75.5424
+F1@0.10: 81.0606
+F1@0.25: 78.7879
+F1@0.50: 58.3333
+Validation:: Probability Accuracy 69.28746928746929
+Other scores:: Edit 75.54236912156168, F1@[10:25:50] [81.06060606 78.78787879 58.33333333]
+Starting Training
+Epoch 213 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.5283
+Edit score: 78.6319
+F1@0.10: 79.6992
+F1@0.25: 75.9398
+F1@0.50: 57.8947
+Validation:: Probability Accuracy 70.52825552825553
+Other scores:: Edit 78.63186578979419, F1@[10:25:50] [79.69924812 75.93984962 57.89473684]
+Starting Training
+Epoch 214 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.6560
+Edit score: 76.5954
+F1@0.10: 81.5094
+F1@0.25: 76.9811
+F1@0.50: 61.8868
+Validation:: Probability Accuracy 69.65601965601965
+Other scores:: Edit 76.59541402768004, F1@[10:25:50] [81.50943396 76.98113208 61.88679245]
+Starting Training
+Epoch 215 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.4349
+Edit score: 74.1142
+F1@0.10: 79.5455
+F1@0.25: 77.2727
+F1@0.50: 58.3333
+Validation:: Probability Accuracy 69.43488943488944
+Other scores:: Edit 74.1142290249433, F1@[10:25:50] [79.54545455 77.27272727 58.33333333]
+Starting Training
+Epoch 216 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.7420
+Edit score: 76.4996
+F1@0.10: 81.5385
+F1@0.25: 79.2308
+F1@0.50: 63.0769
+Validation:: Probability Accuracy 69.74201474201475
+Other scores:: Edit 76.49962858706701, F1@[10:25:50] [81.53846154 79.23076923 63.07692308]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.93%, boundary mse  23.62
+Starting Training
+Epoch 217 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.9091
+Edit score: 77.1933
+F1@0.10: 83.2061
+F1@0.25: 80.1527
+F1@0.50: 65.6489
+Validation:: Probability Accuracy 70.9090909090909
+Other scores:: Edit 77.1933374075583, F1@[10:25:50] [83.20610687 80.15267176 65.64885496]
+Starting Training
+Epoch 218 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.3686
+Edit score: 76.4089
+F1@0.10: 81.2261
+F1@0.25: 77.3946
+F1@0.50: 62.8352
+Validation:: Probability Accuracy 70.36855036855037
+Other scores:: Edit 76.40892563922121, F1@[10:25:50] [81.22605364 77.39463602 62.83524904]
+Starting Training
+Epoch 219 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.3563
+Edit score: 75.8123
+F1@0.10: 81.8182
+F1@0.25: 78.0303
+F1@0.50: 59.0909
+Validation:: Probability Accuracy 70.35626535626535
+Other scores:: Edit 75.81230879448553, F1@[10:25:50] [81.81818182 78.03030303 59.09090909]
+Starting Training
+Epoch 220 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7494
+Edit score: 75.9652
+F1@0.10: 82.6255
+F1@0.25: 78.7645
+F1@0.50: 63.3205
+Validation:: Probability Accuracy 70.74938574938575
+Other scores:: Edit 75.96516192683968, F1@[10:25:50] [82.62548263 78.76447876 63.32046332]
+Starting Training
+Epoch 221 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.1179
+Edit score: 74.7137
+F1@0.10: 82.4427
+F1@0.25: 79.3893
+F1@0.50: 64.1221
+Validation:: Probability Accuracy 71.11793611793611
+Other scores:: Edit 74.71371882086167, F1@[10:25:50] [82.44274809 79.38931298 64.1221374 ]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.87%, boundary mse  23.60
+Starting Training
+Epoch 222 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7617
+Edit score: 75.4507
+F1@0.10: 81.6794
+F1@0.25: 80.1527
+F1@0.50: 62.5954
+Validation:: Probability Accuracy 70.76167076167076
+Other scores:: Edit 75.45068027210884, F1@[10:25:50] [81.67938931 80.15267176 62.59541985]
+Starting Training
+Epoch 223 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8477
+Edit score: 76.7264
+F1@0.10: 82.6255
+F1@0.25: 79.5367
+F1@0.50: 64.0927
+Validation:: Probability Accuracy 70.84766584766585
+Other scores:: Edit 76.72638595668153, F1@[10:25:50] [82.62548263 79.53667954 64.09266409]
+Starting Training
+Epoch 224 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.3759
+Edit score: 77.8127
+F1@0.10: 82.5758
+F1@0.25: 79.5455
+F1@0.50: 62.8788
+Validation:: Probability Accuracy 71.37592137592138
+Other scores:: Edit 77.81268881638339, F1@[10:25:50] [82.57575758 79.54545455 62.87878788]
+Starting Training
+Epoch 225 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7862
+Edit score: 74.4866
+F1@0.10: 82.1293
+F1@0.25: 77.5665
+F1@0.50: 63.1179
+Validation:: Probability Accuracy 70.78624078624078
+Other scores:: Edit 74.48657049026507, F1@[10:25:50] [82.12927757 77.56653992 63.11787072]
+Starting Training
+Epoch 226 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8231
+Edit score: 77.9038
+F1@0.10: 80.7547
+F1@0.25: 80.0000
+F1@0.50: 61.8868
+Validation:: Probability Accuracy 70.82309582309583
+Other scores:: Edit 77.9037827252113, F1@[10:25:50] [80.75471698 80.         61.88679245]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.80%, boundary mse  23.61
+Starting Training
+Epoch 227 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.4300
+Edit score: 76.2959
+F1@0.10: 80.0000
+F1@0.25: 78.4906
+F1@0.50: 62.6415
+Validation:: Probability Accuracy 70.42997542997543
+Other scores:: Edit 76.29586683158111, F1@[10:25:50] [80.         78.49056604 62.64150943]
+Starting Training
+Epoch 228 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.9705
+Edit score: 76.7600
+F1@0.10: 82.5758
+F1@0.25: 79.5455
+F1@0.50: 64.3939
+Validation:: Probability Accuracy 70.97051597051598
+Other scores:: Edit 76.76002121278619, F1@[10:25:50] [82.57575758 79.54545455 64.39393939]
+Starting Training
+Epoch 229 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.4005
+Edit score: 79.4511
+F1@0.10: 82.3970
+F1@0.25: 79.4007
+F1@0.50: 62.1723
+Validation:: Probability Accuracy 71.4004914004914
+Other scores:: Edit 79.45106303390922, F1@[10:25:50] [82.39700375 79.40074906 62.17228464]
+Starting Training
+Epoch 230 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7985
+Edit score: 76.1810
+F1@0.10: 81.8182
+F1@0.25: 77.2727
+F1@0.50: 63.6364
+Validation:: Probability Accuracy 70.7985257985258
+Other scores:: Edit 76.18097238895557, F1@[10:25:50] [81.81818182 77.27272727 63.63636364]
+Starting Training
+Epoch 231 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.9214
+Edit score: 76.3098
+F1@0.10: 80.8989
+F1@0.25: 79.4007
+F1@0.50: 62.1723
+Validation:: Probability Accuracy 70.92137592137593
+Other scores:: Edit 76.30981180350929, F1@[10:25:50] [80.8988764  79.40074906 62.17228464]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.65%, boundary mse  23.63
+Starting Training
+Epoch 232 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.3194
+Edit score: 76.9761
+F1@0.10: 80.4511
+F1@0.25: 78.9474
+F1@0.50: 62.4060
+Validation:: Probability Accuracy 70.31941031941032
+Other scores:: Edit 76.97613894042466, F1@[10:25:50] [80.45112782 78.94736842 62.40601504]
+Starting Training
+Epoch 233 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7002
+Edit score: 76.9167
+F1@0.10: 81.2030
+F1@0.25: 79.6992
+F1@0.50: 61.6541
+Validation:: Probability Accuracy 70.7002457002457
+Other scores:: Edit 76.91672123394812, F1@[10:25:50] [81.20300752 79.69924812 61.65413534]
+Starting Training
+Epoch 234 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.1302
+Edit score: 76.9054
+F1@0.10: 79.7048
+F1@0.25: 78.2288
+F1@0.50: 61.2546
+Validation:: Probability Accuracy 71.13022113022113
+Other scores:: Edit 76.9053780932663, F1@[10:25:50] [79.70479705 78.22878229 61.25461255]
+Starting Training
+Epoch 235 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.0737
+Edit score: 76.7894
+F1@0.10: 80.0000
+F1@0.25: 79.2453
+F1@0.50: 61.1321
+Validation:: Probability Accuracy 70.07371007371007
+Other scores:: Edit 76.78939757721271, F1@[10:25:50] [80.         79.24528302 61.13207547]
+Starting Training
+Epoch 236 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.2457
+Edit score: 75.0960
+F1@0.10: 79.4007
+F1@0.25: 78.6517
+F1@0.50: 61.4232
+Validation:: Probability Accuracy 70.24570024570025
+Other scores:: Edit 75.0959929426316, F1@[10:25:50] [79.40074906 78.65168539 61.42322097]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.74%, boundary mse  23.62
+Starting Training
+Epoch 237 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8722
+Edit score: 77.8184
+F1@0.10: 81.0409
+F1@0.25: 78.8104
+F1@0.50: 60.2230
+Validation:: Probability Accuracy 70.87223587223588
+Other scores:: Edit 77.81840997268473, F1@[10:25:50] [81.04089219 78.81040892 60.22304833]
+Starting Training
+Epoch 238 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.6634
+Edit score: 75.7668
+F1@0.10: 81.3433
+F1@0.25: 78.3582
+F1@0.50: 61.9403
+Validation:: Probability Accuracy 70.66339066339066
+Other scores:: Edit 75.76678757627452, F1@[10:25:50] [81.34328358 78.35820896 61.94029851]
+Starting Training
+Epoch 239 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.1032
+Edit score: 73.7354
+F1@0.10: 78.0669
+F1@0.25: 75.8364
+F1@0.50: 57.2491
+Validation:: Probability Accuracy 69.1031941031941
+Other scores:: Edit 73.73544872494452, F1@[10:25:50] [78.0669145  75.83643123 57.24907063]
+Starting Training
+Epoch 240 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.0491
+Edit score: 75.9597
+F1@0.10: 79.1045
+F1@0.25: 77.6119
+F1@0.50: 59.7015
+Validation:: Probability Accuracy 70.04914004914005
+Other scores:: Edit 75.95967174748687, F1@[10:25:50] [79.10447761 77.6119403  59.70149254]
+Starting Training
+Epoch 241 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.9091
+Edit score: 75.8803
+F1@0.10: 80.1527
+F1@0.25: 80.1527
+F1@0.50: 64.1221
+Validation:: Probability Accuracy 70.9090909090909
+Other scores:: Edit 75.88030666812179, F1@[10:25:50] [80.15267176 80.15267176 64.1221374 ]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.52%, boundary mse  23.66
+Starting Training
+Epoch 242 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7002
+Edit score: 75.7000
+F1@0.10: 80.0000
+F1@0.25: 79.2453
+F1@0.50: 61.1321
+Validation:: Probability Accuracy 70.7002457002457
+Other scores:: Edit 75.69998453927026, F1@[10:25:50] [80.         79.24528302 61.13207547]
+Starting Training
+Epoch 243 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.9779
+Edit score: 74.4440
+F1@0.10: 80.4428
+F1@0.25: 78.9668
+F1@0.50: 62.7306
+Validation:: Probability Accuracy 71.97788697788698
+Other scores:: Edit 74.4440299176324, F1@[10:25:50] [80.44280443 78.96678967 62.73062731]
+Starting Training
+Epoch 244 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.1179
+Edit score: 75.5062
+F1@0.10: 78.0669
+F1@0.25: 76.5799
+F1@0.50: 60.9665
+Validation:: Probability Accuracy 71.11793611793611
+Other scores:: Edit 75.50615700825786, F1@[10:25:50] [78.0669145  76.57992565 60.96654275]
+Starting Training
+Epoch 245 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8231
+Edit score: 74.9894
+F1@0.10: 80.9160
+F1@0.25: 79.3893
+F1@0.50: 64.8855
+Validation:: Probability Accuracy 70.82309582309583
+Other scores:: Edit 74.98939898540061, F1@[10:25:50] [80.91603053 79.38931298 64.88549618]
+Starting Training
+Epoch 246 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.5651
+Edit score: 77.4758
+F1@0.10: 78.5185
+F1@0.25: 78.5185
+F1@0.50: 61.4815
+Validation:: Probability Accuracy 70.56511056511056
+Other scores:: Edit 77.4757781900639, F1@[10:25:50] [78.51851852 78.51851852 61.48148148]
+Calculating expectation
+Expectation step finished, posterior frame-wise accuracy  77.58%, boundary mse  23.62
+Starting Training
+Epoch 247 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.4791
+Edit score: 76.4830
+F1@0.10: 79.2593
+F1@0.25: 77.7778
+F1@0.50: 62.2222
+Validation:: Probability Accuracy 70.47911547911548
+Other scores:: Edit 76.48300624597665, F1@[10:25:50] [79.25925926 77.77777778 62.22222222]
+Starting Training
+Epoch 248 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.7985
+Edit score: 77.8098
+F1@0.10: 78.3582
+F1@0.25: 76.8657
+F1@0.50: 61.1940
+Validation:: Probability Accuracy 70.7985257985258
+Other scores:: Edit 77.80980574047801, F1@[10:25:50] [78.35820896 76.86567164 61.19402985]
+Starting Training
+Epoch 249 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 69.4103
+Edit score: 71.4683
+F1@0.10: 78.1955
+F1@0.25: 75.1880
+F1@0.50: 57.8947
+Validation:: Probability Accuracy 69.41031941031942
+Other scores:: Edit 71.46833371029571, F1@[10:25:50] [78.19548872 75.18796992 57.89473684]
+Starting Training
+Epoch 250 finished, starting validation
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.2948
+Edit score: 77.5088
+F1@0.10: 78.8104
+F1@0.25: 76.5799
+F1@0.50: 61.7100
+Validation:: Probability Accuracy 70.2948402948403
+Other scores:: Edit 77.50883686808056, F1@[10:25:50] [78.81040892 76.57992565 61.71003717]
+============= Evaluating init model =============
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 55.1843
+Edit score: 47.6933
+F1@0.10: 55.0868
+F1@0.25: 49.1315
+F1@0.50: 34.7395
+Validation:: Probability Accuracy 55.18427518427519
+Other scores:: Edit 47.69333182338029, F1@[10:25:50] [55.08684864 49.13151365 34.73945409]
+Excel friendly init result: 55.08684863523573,49.13151364764268,34.73945409429281,47.69333182338029,55.18427518427519
+============= Evaluating best model =============
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 71.9779
+Edit score: 74.4440
+F1@0.10: 80.4428
+F1@0.25: 78.9668
+F1@0.50: 62.7306
+Validation:: Probability Accuracy 71.97788697788698
+Other scores:: Edit 74.4440299176324, F1@[10:25:50] [80.44280443 78.96678967 62.73062731]
+Excel friendly best result: 80.44280442804428,78.96678966789669,62.73062730627306,74.4440299176324,71.97788697788698
+============= Evaluating combined-best model =============
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.8722
+Edit score: 80.0425
+F1@0.10: 82.2642
+F1@0.25: 80.0000
+F1@0.50: 64.1509
+Validation:: Probability Accuracy 70.87223587223588
+Other scores:: Edit 80.04251700680273, F1@[10:25:50] [82.26415094 80.         64.1509434 ]
+Excel friendly combined-best result: 82.26415094339622,80.0,64.15094339622642,80.04251700680273,70.87223587223588
+============= Evaluating last model =============
+Calculating Validation Data Accuracy
+Number of cats = 0
+Evaluate 7 video files...
+frame accuracy: 70.2948
+Edit score: 77.5088
+F1@0.10: 78.8104
+F1@0.25: 76.5799
+F1@0.50: 61.7100
+Validation:: Probability Accuracy 70.2948402948403
+Other scores:: Edit 77.50883686808056, F1@[10:25:50] [78.81040892 76.57992565 61.71003717]
+Excel friendly last result: 78.81040892193309,76.57992565055763,61.7100371747212,77.50883686808056,70.2948402948403
+

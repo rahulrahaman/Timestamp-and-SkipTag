@@ -1,0 +1,50 @@
+wandb: Currently logged in as: dipika_singhania (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.12.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.22
+wandb: Syncing run rosy-pine-5
+wandb: ⭐️ View project at https://wandb.ai/rahul-dipika/EM%20single%20frame%20gtea-split4
+wandb: 🚀 View run at https://wandb.ai/rahul-dipika/EM%20single%20frame%20gtea-split4/runs/3vx6m2ty
+wandb: Run data is saved locally in /home/dipika16/ar/em-less-frame-supervision/wandb/run-20210923_022455-3vx6m2ty
+wandb: Run `wandb offline` to turn off syncing.
+/home/dipika16/ar/em-less-frame-supervision/utils.py:162: RuntimeWarning: invalid value encountered in double_scalars
+  precision = tp[s] / float(tp[s] + fp[s])
+/home/dipika16/ar/em-less-frame-supervision/utils.py:165: RuntimeWarning: invalid value encountered in double_scalars
+  f1 = 2.0 * (precision * recall) / (precision + recall)
+wandb: Waiting for W&B process to finish, PID 34361
+wandb: Program ended successfully.
+wandb: - 0.00MB of 0.00MB uploaded (0.00MB deduped)wandb: \ 0.10MB of 0.10MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Find user logs for this run at: /home/dipika16/ar/em-less-frame-supervision/wandb/run-20210923_022455-3vx6m2ty/logs/debug.log
+wandb: Find internal logs for this run at: /home/dipika16/ar/em-less-frame-supervision/wandb/run-20210923_022455-3vx6m2ty/logs/debug-internal.log
+wandb: Run summary:
+wandb:                       train loss 0.80707
+wandb:                            epoch 249
+wandb:                         _runtime 1151
+wandb:                       _timestamp 1632336246
+wandb:                            _step 1043
+wandb:              Validation Accuracy 71.61836
+wandb:                             Edit 79.98364
+wandb:                            F1@10 86.48649
+wandb:                            F1@25 84.16988
+wandb:                            F1@50 64.09266
+wandb:               Posterior Accuracy 75.40344
+wandb:           Posterior Boundary MSE 25.76453
+wandb: Run history:
+wandb:                       train loss █▇▆▅▃▃▁▂▁▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                            epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:                         _runtime ▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:                       _timestamp ▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:                            _step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:              Validation Accuracy ▁▁▁▁▂▆▆▆▆▇▇▇▇▇▇█▇█▇█████████████████████
+wandb:                             Edit ▁▁▁▁▄▅▆▆▆███████████████████████████████
+wandb:                            F1@10 ▁▁▁▁▄▅▆▆▇███████████████████████████████
+wandb:                            F1@25 ▁▁▁▁▄▅▆▆▆███████████████████████████████
+wandb:                            F1@50 ▁▁▁▁▄▅▆▅▆▇▇▇▇▇████▇███▇████▇▇▇██████████
+wandb:         Best Validation Accuracy ▁▁▁▁▂▅▆▆▆▇▇▇▇▇▇▇████████████████████████
+wandb:   Combined best validation score ▁▁▁▁▃▄▆▆▆▇▇▇▇███████████████████████████
+wandb:               Posterior Accuracy ▁▁▁▃▃▃▄▄▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇███▇████▇▇▇▇▇▇▇▇▇
+wandb:           Posterior Boundary MSE ▆█▇▆▆▆▅▅▅▄▄▄▃▄▃▃▃▃▂▂▁▁▂▂▁▁▂▁▁▁▁▁▁▁▂▂▂▁▂▂
+wandb: 
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: 
+wandb: Synced rosy-pine-5: https://wandb.ai/rahul-dipika/EM%20single%20frame%20gtea-split4/runs/3vx6m2ty

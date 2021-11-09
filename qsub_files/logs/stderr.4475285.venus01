@@ -1,0 +1,63 @@
+wandb: W&B syncing is set to `offline` in this directory.  Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Waiting for W&B process to finish, PID 316328
+wandb: Program ended successfully.
+wandb: Find user logs for this run at: /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211019_115143-3qytis9a/logs/debug.log
+wandb: Find internal logs for this run at: /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211019_115143-3qytis9a/logs/debug-internal.log
+wandb: Run summary:
+wandb:                       train loss 1.19129
+wandb:                            epoch 89
+wandb:                         _runtime 23368
+wandb:                       _timestamp 1634667672
+wandb:                            _step 16575
+wandb:              Validation Accuracy 52.12397
+wandb:                             Edit 61.68046
+wandb:                            F1@10 57.31179
+wandb:                            F1@25 47.29996
+wandb:                            F1@50 26.40914
+wandb:               Posterior Accuracy 65.51635
+wandb:           Posterior Boundary MSE 213.5668
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211019_115143-3qytis9a
+wandb: W&B syncing is set to `offline` in this directory.  Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Waiting for W&B process to finish, PID 119492
+wandb: Program ended successfully.
+wandb: Find user logs for this run at: /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211019_182120-22zxmfjt/logs/debug.log
+wandb: Find internal logs for this run at: /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211019_182120-22zxmfjt/logs/debug-internal.log
+wandb: Run summary:
+wandb:                       train loss 1.07445
+wandb:                            epoch 89
+wandb:                         _runtime 21804
+wandb:                       _timestamp 1634689485
+wandb:                            _step 14325
+wandb:              Validation Accuracy 49.01417
+wandb:                             Edit 59.45754
+wandb:                            F1@10 54.58124
+wandb:                            F1@25 44.82834
+wandb:                            F1@50 26.32845
+wandb:               Posterior Accuracy 63.45802
+wandb:           Posterior Boundary MSE 316.92813
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211019_182120-22zxmfjt
+wandb: W&B syncing is set to `offline` in this directory.  Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Waiting for W&B process to finish, PID 69003
+wandb: Program ended successfully.
+wandb: Find user logs for this run at: /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211020_002452-13ga3bb2/logs/debug.log
+wandb: Find internal logs for this run at: /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211020_002452-13ga3bb2/logs/debug-internal.log
+wandb: Run summary:
+wandb:                       train loss 0.84979
+wandb:                            epoch 89
+wandb:                         _runtime 21635
+wandb:                       _timestamp 1634711128
+wandb:                            _step 14505
+wandb:              Validation Accuracy 48.00129
+wandb:                             Edit 61.8681
+wandb:                            F1@10 59.68689
+wandb:                            F1@25 47.94521
+wandb:                            F1@50 24.41292
+wandb:               Posterior Accuracy 60.24196
+wandb:           Posterior Boundary MSE 359.41825
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /home/svu/e0367435/em-less-frame-supervision/wandb/offline-run-20211020_002452-13ga3bb2
+wandb: W&B syncing is set to `offline` in this directory.  Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+/usr/lib/python3.6/multiprocessing/semaphore_tracker.py:143: UserWarning: semaphore_tracker: There appear to be 6 leaked semaphores to clean up at shutdown
+  len(cache))
